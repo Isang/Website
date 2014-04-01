@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="masterPage.master.cs" Inherits="ShiftWeb.masterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <title>Stugbyar.se</title>
+    <asp:ContentPlaceHolder id="head" runat="server"> 
+    </asp:ContentPlaceHolder>
+</head>
+<body class="body_Background">
+    <form runat="server">
+        <div id="container" class="div_Container">
+            <div id="header" class="div_Header">
+                Stugbyar.se
+            </div>
+
+            <div id="content" class="div_ContentArea">
+                <div id="subContent" class="div_ContentMain">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+
+            <div id="menu" class="div_Menu">
+                <asp:Menu runat="server" DisappearAfter="50">
+                    <StaticMenuItemStyle HorizontalPadding="8px"/>
+                    <StaticMenuItemStyle VerticalPadding="8px"/>
+                    <StaticMenuItemStyle ForeColor="#808080" />
+                    <StaticHoverStyle ForeColor="#000000" />
+                    <StaticMenuItemStyle CssClass="menuItem_Button" />
+                    <Items>
+                        <asp:MenuItem Text="Home" Value="menuItem_Home" NavigateUrl="~/default.aspx">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="About" Value="menuItem_About" NavigateUrl="~/about.aspx">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Contact" Value="menuItem_Contact" NavigateUrl="~/contact.aspx">
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
