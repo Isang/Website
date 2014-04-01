@@ -25,7 +25,6 @@
     font-size:48px;
     font-style:italic;
     border:solid;
-    border-radius:-1px;
     border-left-width:1px;
     border-right-width:1px;
     border-top-width:1px;
@@ -36,13 +35,32 @@
     box-sizing:border-box;
     float:left;
 }
+.div_Footer
+{
+    width:1024px;
+    height:20px;
+    text-align:center;
+    vertical-align:middle;
+    line-height:20px;
+    font-size:12px;
+    background-color:#f9f9f9;
+    border:solid;
+    border-left-width:1px;
+    border-right-width:1px;
+    border-top-width:0px;
+    border-bottom-width:1px;
+    border-color:#808080;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    float:left;
+}
 .div_ContentContainer
 {
-    width:896px;
+    width:768px;
     height:512px;
     background-color:#f9f9f9;
     border:solid;
-    border-radius:-1px;
     border-width:1px;
     border-color:#808080;
     -moz-box-sizing:border-box;
@@ -55,23 +73,38 @@
     position:relative;
     top:8px;
     left:8px;
-    width:880px;
+    width:752px;
     height:496px;
     background-color:#f9f9f9;
     overflow-x:hidden; 
     overflow-y:auto;
 }
-.div_Menu
+.div_Menu1
 {
     width:128px;
     height:512px;
-    background-color:#e9e9e9;
+    background-color:#f9f9f9;
+    border:solid;
+    border-left-width:1px;
+    border-right-width:0px;
+    border-top-width:1px;
+    border-bottom-width:1px;
+    border-color:#808080;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    float:left;
+}
+.div_Menu2
+{
+    width:128px;
+    height:512px;
+    background-color:#f9f9f9;
     border:solid;
     border-left-width:0px;
     border-right-width:1px;
     border-top-width:1px;
     border-bottom-width:1px;
-    border-radius:-1px;
     border-color:#808080;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -85,7 +118,7 @@
 }
 .menuItem_Button:hover
 {
-    background-color:#d9d9d9;
+    background-color:#e9e9e9;
     color:#000000;
 }
 .div_Separator
@@ -120,7 +153,6 @@
 a
 {
     color:#808080;
-    /*text-decoration:none;*/
 }
 a:hover
 {
