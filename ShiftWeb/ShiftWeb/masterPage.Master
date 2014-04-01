@@ -15,20 +15,16 @@
             <div id="header" class="div_Header">
                 Stugbyar.se
             </div>
-
-            <div id="content" class="div_ContentArea">
-                <div id="subContent" class="div_ContentMain">
+            <div id="contentArea" class="div_ContentContainer">
+                <div id="contentMain" class="div_Content">
                     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>
                 </div>
             </div>
-
-            <div id="menu" class="div_Menu">
+            <div id="menu1" class="div_Menu">
                 <asp:Menu runat="server" DisappearAfter="50">
                     <StaticMenuItemStyle HorizontalPadding="8px"/>
                     <StaticMenuItemStyle VerticalPadding="8px"/>
-                    <StaticMenuItemStyle ForeColor="#808080" />
-                    <StaticHoverStyle ForeColor="#000000" />
                     <StaticMenuItemStyle CssClass="menuItem_Button" />
                     <Items>
                         <asp:MenuItem Text="Home" Value="menuItem_Home" NavigateUrl="~/default.aspx">
@@ -39,6 +35,19 @@
                         </asp:MenuItem>
                     </Items>
                 </asp:Menu>
+                <div class="div_Separator">
+                </div>
+                <asp:Menu runat="server" DisappearAfter="50">
+                    <StaticMenuItemStyle HorizontalPadding="8px"/>
+                    <StaticMenuItemStyle VerticalPadding="8px"/>
+                    <StaticMenuItemStyle CssClass="menuItem_Button" />
+                    <Items>
+                        <asp:MenuItem Text="Log in" Value="menuItem_LogIn" NavigateUrl="~/login.aspx">
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+                <div class="div_Separator">
+                </div>
             </div>
         </div>
     </form>

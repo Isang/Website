@@ -60,6 +60,8 @@
     <Content Include="about.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="register.aspx" />
     <Content Include="styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -85,6 +87,13 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="masterPage.Master.cs">
       <DependentUpon>masterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -93,6 +102,13 @@
       <DependentUpon>masterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="masterPage.Master" />
