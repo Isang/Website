@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WebSite
+namespace WebSite.admin
 {
-    public partial class register : System.Web.UI.Page
+    public partial class manage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

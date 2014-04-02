@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ShiftWeb
+namespace WebSite
 {
 
 
