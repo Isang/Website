@@ -24,9 +24,10 @@
     width:1024px;
     height:96px;
     float:left;
-    background-image:url(winterforest.png);
+    background-image:url('winterforest.png');
     background-size:cover;
     float:left;
+    border-radius: 16px 16px 0px 0px;
 }
 
 .panel_Menu
@@ -59,6 +60,7 @@
     width:1024px;
     height:16px;
     background-color:inherit;
+    border-radius: 0px 0px 8px 8px;
     float:left;
 }
 

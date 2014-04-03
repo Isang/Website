@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WebSite</RootNamespace>
     <AssemblyName>WebSite</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -65,9 +65,11 @@
     <Content Include="default.aspx" />
     <Content Include="login.aspx" />
     <Content Include="menuItemStyles.css" />
+    <Content Include="menuSeparator.png" />
     <Content Include="panelStyles.css" />
     <Content Include="register.aspx" />
     <Content Include="Web.config" />
+    <Content Include="winterforest.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="about.aspx.cs">
@@ -116,6 +118,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="masterPage.Master" />
+    <None Include="Properties\PublishProfiles\Shift.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
