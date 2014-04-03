@@ -22,58 +22,58 @@ namespace WebSite {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
         
         /// <summary>
-        /// form control.
+        /// formPage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form;
+        protected global::System.Web.UI.HtmlControls.HtmlForm formPage;
         
         /// <summary>
-        /// container control.
+        /// panelPageContainer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel container;
+        protected global::System.Web.UI.WebControls.Panel panelPageContainer;
         
         /// <summary>
-        /// header control.
+        /// panelHeader control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel header;
+        protected global::System.Web.UI.WebControls.Panel panelHeader;
         
         /// <summary>
-        /// menuLeft control.
+        /// panelMenuLeft control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel menuLeft;
+        protected global::System.Web.UI.WebControls.Panel panelMenuLeft;
         
         /// <summary>
-        /// content control.
+        /// panelContentArea control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel content;
+        protected global::System.Web.UI.WebControls.Panel panelContentArea;
         
         /// <summary>
-        /// subContent control.
+        /// panelContent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel subContent;
+        protected global::System.Web.UI.WebControls.Panel panelContent;
         
         /// <summary>
         /// ContentPlaceHolder1 control.
@@ -85,21 +85,21 @@ namespace WebSite {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
         
         /// <summary>
-        /// menuRight control.
+        /// panelMenuRight control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel menuRight;
+        protected global::System.Web.UI.WebControls.Panel panelMenuRight;
         
         /// <summary>
-        /// footer control.
+        /// panelFooter control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel footer;
+        protected global::System.Web.UI.WebControls.Panel panelFooter;
     }
 }

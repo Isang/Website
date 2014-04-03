@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebSite.admin
+namespace WebSite
 {
 
 
-    public partial class manage
+    public partial class _default
     {
     }
 }

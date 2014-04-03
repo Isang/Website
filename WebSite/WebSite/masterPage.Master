@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.master.cs" Inherits="WebSite.masterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="bodyStyles.css" rel="stylesheet" type="text/css" />
+    <link href="panelStyles.css" rel="stylesheet" type="text/css" />
+    <link href="menuItemStyles.css" rel="stylesheet" type="text/css" />
+    <title>Stugbyar.se</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body = class="bodyBackground">
+    <form id="formPage" runat="server">
+        <asp:Panel ID="panelPageContainer" runat="server" CssClass="panel_PageContainer">
+            <asp:Panel ID="panelHeader" runat="server" CssClass="panel_Header panel_Border panel_Border-NoBottom">
+            </asp:Panel>
+            <asp:Panel ID="panelMenuLeft" runat="server" CssClass="panel_Menu panel_Border">
+            </asp:Panel>
+            <asp:Panel ID="panelContentArea" runat="server" CssClass="panel_ContentArea panel_Border panel_Border-NoRight panel_Border-NoLeft">
+                <asp:Panel ID="panelContent" runat="server" CssClass="panel_AreaContent">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </asp:Panel>
+            </asp:Panel>
+            <asp:Panel ID="panelMenuRight" runat="server" CssClass="panel_Menu panel_Border">
+                <asp:Menu runat="server">
+                    <StaticMenuItemStyle CssClass="menuItemButton" />
+                    <Items>
+                        <asp:MenuItem Text="Home" NavigateUrl="~/default.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="About" NavigateUrl="~/about.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Contact" NavigateUrl="~/contact.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Register" NavigateUrl="~/register.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Log in" NavigateUrl="~/login.aspx"></asp:MenuItem>
+                    </Items>
+                 </asp:Menu>
+            </asp:Panel>
+            <asp:Panel ID="panelFooter" runat="server" CssClass="panel_Footer panel_Border panel_Border-NoTop">
+            </asp:Panel>
+        </asp:Panel>
+    </form>
+</body>
+</html>

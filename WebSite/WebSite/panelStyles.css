@@ -1,0 +1,80 @@
+﻿/*BWG7X-J98B3-W34RT-33B3R-JVYW9*/
+.panel_Border
+{
+    border:solid;
+    border-width:1px;
+    -webkit-box-sizing:border-box;
+}
+.panel_Border-NoBottom { border-bottom-width:0px; }
+.panel_Border-NoLeft { border-left-width:0px; }
+.panel_Border-NoRight { border-right-width:0px; }
+.panel_Border-NoTop { border-top-width:0px; }
+
+.panel_PageContainer
+{
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#f9f9f9;
+    width:1024px;
+    color:#808080;
+}
+
+.panel_Header
+{
+    width:1024px;
+    height:96px;
+    float:left;
+    background-image:url(winterforest.png);
+    background-size:cover;
+    float:left;
+}
+
+.panel_Menu
+{
+    width:144px;
+    height:512px;
+    background-color:inherit;
+    float:left;
+}
+
+.panel_ContentArea
+{
+    width:736px;
+    height:512px;
+    background-color:inherit;
+    float:left;
+}
+.panel_AreaContent
+{
+    position:relative;
+    top:16px;
+    left:16px;
+    width:704px;
+    height:480px;
+    background-color:inherit
+}
+
+.panel_Footer
+{
+    width:1024px;
+    height:16px;
+    background-color:inherit;
+    float:left;
+}
+
+.panel_RegisterContainer
+{
+    margin-top:64px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+    width:256px;
+    height:auto;
+}
+
+.panel_RegisterSpacing
+{
+    width:256px;
+    height:10px;
+    float:left;
+}
