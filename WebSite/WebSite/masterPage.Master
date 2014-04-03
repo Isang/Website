@@ -4,9 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="bodyStyles.css" rel="stylesheet" type="text/css" />
-    <link href="panelStyles.css" rel="stylesheet" type="text/css" />
-    <link href="menuItemStyles.css" rel="stylesheet" type="text/css" />
+    <link href="styles/bodyStyles.css" rel="stylesheet" type="text/css" />
+    <link href="styles/panelStyles.css" rel="stylesheet" type="text/css" />
+    <link href="styles/menuItemStyles.css" rel="stylesheet" type="text/css" />
     <title>Stugbyar.se</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -31,8 +31,8 @@
                         <asp:MenuItem Text="Home" NavigateUrl="~/default.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="About" NavigateUrl="~/about.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Contact" NavigateUrl="~/contact.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Register" NavigateUrl="~/register.aspx" SeparatorImageUrl='menuSeparator.png' ></asp:MenuItem>
-                        <asp:MenuItem Text="Log in" NavigateUrl="~/login.aspx" SeparatorImageUrl='menuSeparator.png' ></asp:MenuItem>
+                        <asp:MenuItem Text="Register" NavigateUrl="~/register.aspx" SeparatorImageUrl='images/menuSeparator.png' ></asp:MenuItem>
+                        <asp:MenuItem Text="Log in" NavigateUrl="~/login.aspx" SeparatorImageUrl='images/menuSeparator.png' ></asp:MenuItem>
                     </Items>
                  </asp:Menu>
             </asp:Panel>

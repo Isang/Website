@@ -24,7 +24,7 @@
     width:1024px;
     height:96px;
     float:left;
-    background-image:url('winterforest.png');
+    background-image:url('../images/winterforest.png');
     background-size:cover;
     float:left;
     border-radius: 16px 16px 0px 0px;

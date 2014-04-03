@@ -60,16 +60,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.aspx" />
-    <Content Include="bodyStyles.css" />
+    <Content Include="styles\bodyStyles.css" />
     <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
     <Content Include="login.aspx" />
-    <Content Include="menuItemStyles.css" />
-    <Content Include="menuSeparator.png" />
-    <Content Include="panelStyles.css" />
+    <Content Include="styles\menuItemStyles.css" />
+    <Content Include="images\menuSeparator.png" />
+    <Content Include="styles\panelStyles.css" />
     <Content Include="register.aspx" />
     <Content Include="Web.config" />
-    <Content Include="winterforest.png" />
+    <Content Include="images\winterforest.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="about.aspx.cs">
