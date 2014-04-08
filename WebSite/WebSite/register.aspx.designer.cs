@@ -22,57 +22,57 @@ namespace WebSite {
         protected global::System.Web.UI.WebControls.Panel panelRegisterBox;
         
         /// <summary>
-        /// textBoxRegisterEMail control.
+        /// txtRegEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textBoxRegisterEMail;
+        protected global::System.Web.UI.WebControls.TextBox txtRegEmail;
         
         /// <summary>
-        /// textBoxRegisterPassword control.
+        /// txtRegPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textBoxRegisterPassword;
+        protected global::System.Web.UI.WebControls.TextBox txtRegPassword;
         
         /// <summary>
-        /// textBoxRegisterFirstName control.
+        /// txtRegFirstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textBoxRegisterFirstName;
+        protected global::System.Web.UI.WebControls.TextBox txtRegFirstName;
         
         /// <summary>
-        /// textBoxRegisterLastName control.
+        /// txtRegLastName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textBoxRegisterLastName;
+        protected global::System.Web.UI.WebControls.TextBox txtRegLastName;
         
         /// <summary>
-        /// textBoxRegisterPhoneNumber control.
+        /// txtRegPhoneNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textBoxRegisterPhoneNumber;
+        protected global::System.Web.UI.WebControls.TextBox txtRegPhoneNumber;
         
         /// <summary>
-        /// buttonRegister control.
+        /// btnRegister control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button buttonRegister;
+        protected global::System.Web.UI.WebControls.Button btnRegister;
     }
 }

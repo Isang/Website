@@ -117,6 +117,7 @@
     <Compile Include="register.aspx.designer.cs">
       <DependentUpon>register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UserDB.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="masterPage.Master" />

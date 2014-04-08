@@ -95,3 +95,14 @@
     color:inherit;
     float:left;
 }
+
+.panel_RegisterBoxError
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:256px;
+    height:48px;
+    background-color:inherit;
+    color:inherit;
+    float:left;
+}

@@ -9,9 +9,16 @@ namespace WebSite
 {
     public partial class register : System.Web.UI.Page
     {
+        UserDB UserDB = new UserDB();
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            textBoxRegisterEMail.Focus();
+            txtRegEmail.Focus();
+        }
+
+        protected void btnRegister_Click(object sender, EventArgs e)
+        {
+            UserDB.RegUser(txtRegEmail.Text, txtRegPassword.Text, txtRegFirstName.Text, txtRegLastName.Text, txtRegPhoneNumber.Text);
         }
     }
 }
