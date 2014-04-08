@@ -4,6 +4,8 @@
     border:solid;
     border-width:1px;
     -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
 }
 .panel_Border-NoBottom { border-bottom-width:0px; }
 .panel_Border-NoLeft { border-left-width:0px; }
