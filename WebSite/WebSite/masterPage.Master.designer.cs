@@ -67,13 +67,22 @@ namespace WebSite {
         protected global::System.Web.UI.WebControls.Panel panelContentArea;
         
         /// <summary>
-        /// panelContent control.
+        /// panelAreaContent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel panelContent;
+        protected global::System.Web.UI.WebControls.Panel panelAreaContent;
+        
+        /// <summary>
+        /// panelAreaContentMargin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel panelAreaContentMargin;
         
         /// <summary>
         /// ContentPlaceHolder1 control.

@@ -4,9 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="styles/bodyStyles.css" rel="stylesheet" type="text/css" />
-    <link href="styles/panelStyles.css" rel="stylesheet" type="text/css" />
-    <link href="styles/menuItemStyles.css" rel="stylesheet" type="text/css" />
+    <link href="bodyStyles.css" rel="stylesheet" type="text/css" />
+    <link href="panelStyles.css" rel="stylesheet" type="text/css" />
+    <link href="menuItemStyles.css" rel="stylesheet" type="text/css" />
+    <link href="textBoxStyles.css" rel="stylesheet" type="text/css" />
+    <link href="buttonStyles.css" rel="stylesheet" type="text/css" />
     <title>Stugbyar.se</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -19,9 +21,11 @@
             <asp:Panel ID="panelMenuLeft" runat="server" CssClass="panel_Menu panel_Border">
             </asp:Panel>
             <asp:Panel ID="panelContentArea" runat="server" CssClass="panel_ContentArea panel_Border panel_Border-NoRight panel_Border-NoLeft">
-                <asp:Panel ID="panelContent" runat="server" CssClass="panel_AreaContent">
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                    </asp:ContentPlaceHolder>
+                <asp:Panel ID="panelAreaContent" runat="server" CssClass="panel_AreaContent">
+                    <asp:Panel ID="panelAreaContentMargin" runat="server" CssClass="panel_AreaContentMargin">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </asp:Panel>
                 </asp:Panel>
             </asp:Panel>
             <asp:Panel ID="panelMenuRight" runat="server" CssClass="panel_Menu panel_Border">
