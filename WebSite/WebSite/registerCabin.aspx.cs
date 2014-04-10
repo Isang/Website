@@ -10,6 +10,7 @@ namespace WebSite
     public partial class registercabin : System.Web.UI.Page
     {
         VillageDB villageDB = new VillageDB();
+        CabinDB cabinDB = new CabinDB();
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -58,6 +59,11 @@ namespace WebSite
         protected void ddlBeds_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        protected void btnRegisterCabin_Click(object sender, EventArgs e)
+        {
+            cabinDB.RegisterCabin(Convert.ToInt32(ddlVillage.SelectedValue), Convert.ToInt32(ddlRooms.SelectedValue), Convert.ToInt32(ddlBeds.SelectedValue), txtCabinSize.Text);
         }
     }
 }
