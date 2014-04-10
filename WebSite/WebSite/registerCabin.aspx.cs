@@ -64,6 +64,7 @@ namespace WebSite
         protected void btnRegisterCabin_Click(object sender, EventArgs e)
         {
             cabinDB.RegisterCabin(Convert.ToInt32(ddlVillage.SelectedValue), Convert.ToInt32(ddlRooms.SelectedValue), Convert.ToInt32(ddlBeds.SelectedValue), txtCabinSize.Text);
+            
         }
     }
 }
