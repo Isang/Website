@@ -18,7 +18,14 @@ namespace WebSite
             using(SqlConnection _conn = new SqlConnection(ConnectionString))
             {
                 SqlCommand _cmd = new SqlCommand("dbo.Usp_GetVillages", _conn);
+                _cmd.CommandType = CommandType.StoredProcedure;
+                _conn.Open();
+                _cmd.ExecuteNonQuery();
+
+                SqlDataAdapter adr = new SqlDataAdapter(_cmd);
+                adr.Fill(table);
             }
+            return table;
            
 
         }

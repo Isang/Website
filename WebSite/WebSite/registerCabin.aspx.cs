@@ -9,6 +9,8 @@ namespace WebSite
 {
     public partial class registercabin : System.Web.UI.Page
     {
+        VillageDB villageDB = new VillageDB();
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
@@ -23,6 +25,8 @@ namespace WebSite
         {
             ListItem itmDefault = new ListItem("- Village -");
 
+            ddlVillage.DataSource = villageDB.GetVillagesFromDB();
+            ddlVillage.DataBind();
             ddlVillage.Items.Insert(0, itmDefault);
         }
 
