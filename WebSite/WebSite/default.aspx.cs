@@ -11,7 +11,9 @@ namespace WebSite
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //clientTemperature.Service1SoapClient client = new clientTemperature.Service1SoapClient("Service1Soap");
+            //string temp = client.Temperatur();
+            //lblTemp.Text = temp;
         }
     }
 }
