@@ -1,0 +1,11 @@
+﻿.lbl_RegisterBoxMessage
+{
+    width:256px;
+    height:64px;
+    text-wrap:normal;
+    font-size:16px;
+    color:inherit;
+    padding:0px;
+    margin:0px;
+    float:left;
+}

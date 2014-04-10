@@ -10,17 +10,17 @@ namespace WebSite
 {
     public class VillageDB
     {
-        String ConnectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
+        //String ConnectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
 
-        public DataTable GetVillagesFromDB()
-        {
-            DataTable table = new DataTable();
-            using(SqlConnection _conn = new SqlConnection(ConnectionString))
-            {
-                SqlCommand _cmd = new SqlCommand("dbo.Usp_GetVillages", _conn);
-            }
+        //public DataTable GetVillagesFromDB()
+        //{
+        //    DataTable table = new DataTable();
+        //    using(SqlConnection _conn = new SqlConnection(ConnectionString))
+        //    {
+        //        SqlCommand _cmd = new SqlCommand("dbo.Usp_GetVillages", _conn);
+        //    }
            
 
-        }
+        //}
     }
 }

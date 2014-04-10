@@ -65,6 +65,7 @@
     <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
     <Content Include="dropDownStyles.css" />
+    <Content Include="lblStyles.css" />
     <Content Include="login.aspx" />
     <Content Include="menuItemStyles.css" />
     <Content Include="images\menuSeparator.png" />

@@ -18,7 +18,8 @@ namespace WebSite
 
         protected void btnRegister_Click(object sender, EventArgs e)
         {
-            UserDB.RegUser(txtRegEmail.Text, txtRegPassword.Text, txtRegFirstName.Text, txtRegLastName.Text, txtRegPhoneNumber.Text);
+            String regMessage = UserDB.RegUser(txtRegEmail.Text, txtRegPassword.Text, txtRegFirstName.Text, txtRegLastName.Text, txtRegPhoneNumber.Text);
+            lblRegBoxMessage.Text = regMessage;
         }
     }
 }

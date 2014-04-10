@@ -17,5 +17,6 @@
         <asp:Panel runat="server" CssClass="panel_RegisterBoxSpacing" />
         <asp:Button ID="btnRegister" runat="server" CssClass="btn_RegButton" TabIndex="6" Text="Register" OnClick="btnRegister_Click" />
         <asp:Panel runat="server" CssClass="panel_RegisterBoxSpacing" />
+        <asp:Label ID="lblRegBoxMessage" runat="server" CssClass="lbl_RegisterBoxMessage" />
     </asp:Panel>
 </asp:Content>
