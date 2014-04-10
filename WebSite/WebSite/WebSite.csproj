@@ -127,6 +127,7 @@
       <DependentUpon>registerCabin.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserDB.cs" />
+    <Compile Include="VillageDB.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="masterPage.Master" />

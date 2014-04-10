@@ -4,14 +4,15 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Panel ID="panelRegisterBox" runat="server" CssClass="panel_RegisterBoxContainer">
+        Register new cabin:
         <asp:Panel runat="server" CssClass="panel_RegisterBoxSpacing" />
-        <asp:DropDownList ID="ddlVillage" runat="server" CssClass="dropdown_Register" ></asp:DropDownList>
+        <asp:DropDownList ID="ddlVillage" runat="server" CssClass="dropdown_Register" OnSelectedIndexChanged="ddlVillage_SelectedIndexChanged" ></asp:DropDownList>
         <asp:Panel runat="server" CssClass="panel_RegisterBoxSpacing" />
-        <asp:DropDownList ID="ddlRooms" runat="server" CssClass="dropdown_Register" ></asp:DropDownList>
+        <asp:DropDownList ID="ddlRooms" runat="server" CssClass="dropdown_Register" OnSelectedIndexChanged="ddlRooms_SelectedIndexChanged" ></asp:DropDownList>
         <asp:Panel runat="server" CssClass="panel_RegisterBoxSpacing" />
-        <asp:DropDownList ID="ddlBeds" runat="server" CssClass="dropdown_Register" ></asp:DropDownList>
+        <asp:DropDownList ID="ddlBeds" runat="server" CssClass="dropdown_Register" OnSelectedIndexChanged="ddlBeds_SelectedIndexChanged" ></asp:DropDownList>
         <asp:Panel runat="server" CssClass="panel_RegisterBoxSpacing" />
-        <asp:TextBox ID="txtCabinSize" runat="server" CssClass="textBox_RegisterBox" ></asp:TextBox>
+        <asp:TextBox ID="txtCabinSize" runat="server" CssClass="txt_RegBox" placeholder="Cabin Size in square meters"  ></asp:TextBox>
 
         </asp:Panel>
 </asp:Content>
