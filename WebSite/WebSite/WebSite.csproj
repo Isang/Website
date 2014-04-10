@@ -70,9 +70,10 @@
     <Content Include="menuItemStyles.css" />
     <Content Include="images\menuSeparator.png" />
     <Content Include="panelStyles.css" />
-    <Content Include="register.aspx" />
+    <Content Include="registerUser.aspx" />
     <Content Include="registerCabin.aspx" />
     <Content Include="textBoxStyles.css" />
+    <Content Include="userData.aspx" />
     <Content Include="Web.config" />
     <Content Include="images\winterforest.png" />
   </ItemGroup>
@@ -113,12 +114,12 @@
       <DependentUpon>masterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="register.aspx.cs">
-      <DependentUpon>register.aspx</DependentUpon>
+    <Compile Include="registerUser.aspx.cs">
+      <DependentUpon>registerUser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="register.aspx.designer.cs">
-      <DependentUpon>register.aspx</DependentUpon>
+    <Compile Include="registerUser.aspx.designer.cs">
+      <DependentUpon>registerUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="registerCabin.aspx.cs">
       <DependentUpon>registerCabin.aspx</DependentUpon>
@@ -126,6 +127,13 @@
     </Compile>
     <Compile Include="registerCabin.aspx.designer.cs">
       <DependentUpon>registerCabin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userData.aspx.cs">
+      <DependentUpon>userData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userData.aspx.designer.cs">
+      <DependentUpon>userData.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserDB.cs" />
     <Compile Include="VillageDB.cs" />

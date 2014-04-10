@@ -69,5 +69,22 @@ namespace WebSite
                     return true;
             }
         }
+
+        public DataTable GetUserData()
+        {
+            DataTable tbl = new DataTable();
+            using (SqlConnection _conn = new SqlConnection(ConnectionString))
+            using (SqlCommand _cmd = new SqlCommand("dbo.Usp_GetUsers", _conn))
+            {
+                SqlDataAdapter adptr = new SqlDataAdapter(_cmd);
+                _cmd.CommandType = CommandType.StoredProcedure;
+                adptr.Fill(tbl);
+
+                _conn.Open();
+                _cmd.ExecuteNonQuery();
+                _conn.Close();
+            }
+            return tbl;
+        }
     }
 }
