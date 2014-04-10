@@ -6,7 +6,7 @@
     <asp:Panel ID="panelRegisterBox" runat="server" CssClass="panel_RegisterBoxContainer">
         Register new cabin:
         <asp:Panel runat="server" CssClass="panel_RegisterBoxSpacing" />
-        <asp:DropDownList ID="ddlVillage" runat="server" CssClass="dropdown_Register" OnSelectedIndexChanged="ddlVillage_SelectedIndexChanged" ></asp:DropDownList>
+        <asp:DropDownList ID="ddlVillage" runat="server" CssClass="dropdown_Register" OnSelectedIndexChanged="ddlVillage_SelectedIndexChanged" DataTextField ="Name" AutoPostBack="true"></asp:DropDownList>
         <asp:Panel runat="server" CssClass="panel_RegisterBoxSpacing" />
         <asp:DropDownList ID="ddlRooms" runat="server" CssClass="dropdown_Register" OnSelectedIndexChanged="ddlRooms_SelectedIndexChanged" ></asp:DropDownList>
         <asp:Panel runat="server" CssClass="panel_RegisterBoxSpacing" />
