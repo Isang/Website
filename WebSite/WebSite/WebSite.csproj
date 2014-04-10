@@ -64,11 +64,13 @@
     <Content Include="buttonStyles.css" />
     <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
+    <Content Include="dropDownStyles.css" />
     <Content Include="login.aspx" />
     <Content Include="menuItemStyles.css" />
     <Content Include="images\menuSeparator.png" />
     <Content Include="panelStyles.css" />
     <Content Include="register.aspx" />
+    <Content Include="registercabin.aspx" />
     <Content Include="textBoxStyles.css" />
     <Content Include="Web.config" />
     <Content Include="images\winterforest.png" />
@@ -116,6 +118,13 @@
     </Compile>
     <Compile Include="register.aspx.designer.cs">
       <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registerCabin.aspx.cs">
+      <DependentUpon>registercabin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registerCabin.aspx.designer.cs">
+      <DependentUpon>registercabin.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserDB.cs" />
   </ItemGroup>
