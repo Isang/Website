@@ -70,7 +70,7 @@
     <Content Include="images\menuSeparator.png" />
     <Content Include="panelStyles.css" />
     <Content Include="register.aspx" />
-    <Content Include="registercabin.aspx" />
+    <Content Include="registerCabin.aspx" />
     <Content Include="textBoxStyles.css" />
     <Content Include="Web.config" />
     <Content Include="images\winterforest.png" />
@@ -120,11 +120,11 @@
       <DependentUpon>register.aspx</DependentUpon>
     </Compile>
     <Compile Include="registerCabin.aspx.cs">
-      <DependentUpon>registercabin.aspx</DependentUpon>
+      <DependentUpon>registerCabin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="registerCabin.aspx.designer.cs">
-      <DependentUpon>registercabin.aspx</DependentUpon>
+      <DependentUpon>registerCabin.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserDB.cs" />
   </ItemGroup>
