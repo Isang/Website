@@ -37,6 +37,7 @@
                         <asp:MenuItem Text="Home" NavigateUrl="~/default.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="About" NavigateUrl="~/about.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Contact" NavigateUrl="~/contact.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Search Cabin" NavigateUrl="~/searchCabin.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Register" NavigateUrl="~/registerUser.aspx" SeparatorImageUrl='images/menuSeparator.png' ></asp:MenuItem>
                         <asp:MenuItem Text="Log in" NavigateUrl="~/login.aspx" SeparatorImageUrl='images/menuSeparator.png' ></asp:MenuItem>
                         <asp:MenuItem Text="Register Cabin" NavigateUrl="~/registerCabin.aspx"></asp:MenuItem>

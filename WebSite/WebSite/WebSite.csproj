@@ -72,6 +72,7 @@
     <Content Include="panelStyles.css" />
     <Content Include="registerUser.aspx" />
     <Content Include="registerCabin.aspx" />
+    <Content Include="searchCabin.aspx" />
     <Content Include="textBoxStyles.css" />
     <Content Include="userData.aspx" />
     <Content Include="Web.config" />
@@ -128,6 +129,13 @@
     </Compile>
     <Compile Include="registerCabin.aspx.designer.cs">
       <DependentUpon>registerCabin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="searchCabin.aspx.cs">
+      <DependentUpon>searchCabin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="searchCabin.aspx.designer.cs">
+      <DependentUpon>searchCabin.aspx</DependentUpon>
     </Compile>
     <Compile Include="userData.aspx.cs">
       <DependentUpon>userData.aspx</DependentUpon>

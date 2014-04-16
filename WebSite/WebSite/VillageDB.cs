@@ -11,7 +11,7 @@ namespace WebSite
     public class VillageDB
     {
         String ConnectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
-
+    
         public DataTable GetVillagesFromDB()
         {
             DataTable table = new DataTable();

@@ -10,9 +10,11 @@ namespace WebSite
 {
     public class CabinDB
     {
+        String ConnectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
+
         public void RegisterCabin(int village_Id, int rooms, int beds, string size)
         {
-            String ConnectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
+            
             using (SqlConnection _conn = new SqlConnection(ConnectionString))
             {
                 SqlCommand _cmd = new SqlCommand("dbo.Usp_RegisterCabin", _conn);
@@ -25,5 +27,38 @@ namespace WebSite
                 _cmd.ExecuteNonQuery();
             }
         }
+        public DataTable GetCabinData(int village_Id, int rooms, int beds)
+        {
+            DataTable tbl = new DataTable();
+
+            using (SqlConnection _conn = new SqlConnection(ConnectionString))
+            using (SqlCommand _cmd = new SqlCommand("dbo.Usp_GetCabins", _conn))
+            {
+                SqlDataAdapter adptr = new SqlDataAdapter(_cmd);
+                _cmd.CommandType = CommandType.StoredProcedure;
+
+                if (village_Id == 0)
+                    _cmd.Parameters.Add(new SqlParameter("@Village_Id", DBNull.Value));
+                else
+                    _cmd.Parameters.Add(new SqlParameter("@Village_Id", village_Id));
+                if (rooms == 0)
+                    _cmd.Parameters.Add(new SqlParameter("@Rooms", DBNull.Value));
+                else
+                    _cmd.Parameters.Add(new SqlParameter("@Rooms", rooms));
+                if (beds == 0)
+                    _cmd.Parameters.Add(new SqlParameter("@Beds", DBNull.Value));
+                else
+                    _cmd.Parameters.Add(new SqlParameter("@Beds", beds));
+               
+
+                _conn.Open();
+                _cmd.ExecuteNonQuery();
+                adptr.Fill(tbl);
+                _conn.Close();
+            }
+
+            return tbl;
+        }
+
     }
 }
