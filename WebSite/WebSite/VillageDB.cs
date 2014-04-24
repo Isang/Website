@@ -24,6 +24,7 @@ namespace WebSite
 
                 SqlDataAdapter adr = new SqlDataAdapter(_cmd);
                 adr.Fill(table);
+                //slurp
             }
             return table;
            
